@@ -1,0 +1,266 @@
+<!--  -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link rel="stylesheet" href="./css/style.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+		crossorigin="anonymous"></script>
+	<script src="./js/main.js" defer type="module"></script>
+	<script src="./js/sidebar-component.js" defer type="module"></script>
+	<script src="./js/nav-component.js" defer type="module"></script>
+	<script type="module" src="./js/description.js" defer></script>
+	<title>Fauroro's Portfolio</title>
+
+</head>
+
+<body>
+	<!-- SIDEBAR -->
+	<section id="sidebar">
+		<sidebar-component></sidebar-component>
+	</section>
+
+	<section id="nav-bar">
+		<!-- NAVBAR -->
+		<nav-component></nav-component>
+	</section>
+	<main>
+		<section id="user" class="d-flex flex-column justify-content-center align-items-center">
+
+			<div class="user-container" data-aos="fade-in">
+				<h1>Fabian Rodriguez </h1>
+				<p>Soy <span class="typed"></span></p>
+			</div>
+		</section>
+
+		<section id="content">
+			<div class="header">
+				<span></span>
+				<h1>Acerca de mi</h1>
+			</div>
+
+			<div class="container text-start headline ">
+				<div class="row align-items-center profline">
+					<div id="intro" class="col-sm-8">
+						Desarrollador de software con sólidos conocimientos en HTML, CSS, JavaScript, SQL y Java. Me
+						entusiasma la innovación tecnológica y el desarrollo, disfruto trabajar en equipo para enfrentar
+						nuevos desafíos y contribuir al éxito de los proyectos. Mi objetivo es impulsar la innovación y
+						mejorar la eficiencia en el desarrollo de software.
+						<br>
+						<br>
+						Me considero una persona confiable, con capacidad para aprender rápidamente, adaptable a los
+						cambios y siempre dispuesto a ser un miembro valioso del equipo.
+					</div>
+					<div id="profile_pic" class="col-sm-4 profline">
+						<img src="./images/profile.jpg" alt="" class="img-fluid rounded-circle"
+							style="box-shadow: gray 0px 0px 15px;">
+					</div>
+				</div>
+			</div>
+			<div class="container row row-cols-1 row-cols-md-4 g-4">
+				<div class="col">
+					<div class="card h-100">
+						<img src="https://cdn-icons-png.flaticon.com/256/6000/6000904.png" class="card-img-top"
+							alt="...">
+						<div class="card-body">
+							<h4 class="card-title text-center">Objetivos Profesionales</h4><br>
+							<p class="card-text">&#11162; Desarrollar proyectos de impacto social</p>
+							<p class="card-text">&#11162; Liderar equipos de trabajo</p>
+							<p class="card-text">&#11162; Aprendizaje continuo</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img src="https://images.vexels.com/media/users/3/218843/isolated/preview/a5897fc91c757ab85cc8533390c62589-engranajes-dentro-del-icono-de-trazo-de-bombilla.png"
+							class="card-img-top" alt="...">
+						<div class="card-body">
+							<h4 class="card-title">Misión</h4>
+							<p class="card-text">Crear soluciones tecnológicas innovadoras mediante aplicaciones y
+								herramientas
+								intuitivas, enfocándome en la mejora continua y la creatividad para ofrecer resultados
+								de alta
+								calidad y experiencias enriquecedoras.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img src="https://cdn-icons-png.flaticon.com/512/2991/2991509.png"
+							class="card-img-top" alt="...">
+						<div class="card-body">
+							<h4 class="card-title">Visión</h4>
+							<p class="card-text">Ser un referente en la creación de soluciones tecnológicas innovadoras
+								que
+								empoderen a las personas, transformando su interacción con la tecnología para ofrecer
+								experiencias más conectadas, intuitivas y enriquecedoras.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img src="https://media-public.canva.com/X7Hsg/MAF-CaX7Hsg/1/tl.png" class="card-img-top"
+							alt="...">
+						<div class="card-body">
+							<h4 class="card-title">Valores</h4>
+							<p class="card-text">&#11162; <strong>Innovación</strong>: Buscar siempre nuevas y mejores
+								soluciones tecnológicas.</p>
+							<p class="card-text">&#11162; <strong>Mejora Continua</strong>: Mejorar constantemente a
+								través del
+								aprendizaje y la adaptación.</p>
+							<p class="card-text">&#11162; <strong>Compromiso</strong>: Dedicarse a ofrecer resultados
+								excepcionales.</p>
+							<p class="card-text">&#11162; <strong>Integridad</strong>: Actuar con honestidad y
+								transparencia en
+								todo momento.</p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ======= Services Section ======= -->
+		<section id="services">
+			<div class="header">
+				<span></span>
+				<h1>Servicios</h1>
+			</div>
+
+			<p>Aquí podrás explorar todos los servicios que ofrezco, diseñados para impulsar el crecimiento de tu
+				empresa y
+				llevarla a un nivel superior con elegancia y profesionalismo.
+			</p>
+
+			<div class="row">
+				<div class="col-lg-4 col-md-6 icon-box">
+					<div class="icon"><i class="bi bi-search"></i></div>
+					<h4 class="title">Análisis y Solución de Problemas</h4>
+					<p class="description">Abordo y resuelvo problemas difíciles con un enfoque cuidadoso, ofreciendo
+						soluciones que funcionan a largo plazo. Mi objetivo es mejorar constantemente los sistemas y
+						procesos
+						para que sean más eficientes y efectivos.
+					</p>
+				</div>
+				<div class="col-lg-4 col-md-6 icon-box">
+					<div class="icon"><i class="bi bi-file-earmark-code-fill"></i></div>
+					<h4 class="title">Creación de Sistemas BackEnd</h4>
+					<p class="description">Desarrollo y mejoro sistemas BackEnd que forman la base de las aplicaciones,
+						asegurándome de que sean seguros, escalables y capaces de manejar las demandas del negocio.
+					</p>
+				</div>
+				<div class="col-lg-4 col-md-6 icon-box">
+					<div class="icon"><i class="bi bi-inboxes-fill"></i></div>
+					<h4 class="title">Desarrollo de Sistemas de Información</h4>
+					<p class="description">Desarrollo sistemas de información efectivos y eficientes que optimizan la
+						gestión
+						y el flujo de datos dentro de las organizaciones, facilitando el análisis y la toma de
+						decisiones
+						informadas y estratégicas.
+					</p>
+				</div>
+				<div class="col-lg-4 col-md-6 icon-box">
+					<div class="icon"><i class="bi bi-postcard-heart-fill"></i></div>
+					<h4 class="title">Desarrollo de Interfaces Frontend</h4>
+					<p class="description">Desarrollo interfaces de usuario atractivas y funcionales, asegurando una
+						experiencia fluida en todos los dispositivos y navegadores. Mi enfoque está en crear soluciones
+						frontend que combinan diseño estético con rendimiento optimizado para una navegación eficiente y
+						una
+						interacción intuitiva.
+					</p>
+				</div>
+				<div class="col-lg-4 col-md-6 icon-box">
+					<div class="icon"><i class="bi bi-calendar"></i></div>
+					<h4 class="title">Gestión y Planeación de Proyectos</h4>
+					<p class="description">Coordino y gestiono proyectos de principio a fin, garantizando el
+						cumplimiento de
+						plazos, presupuestos y objetivos. Mi enfoque se centra en una organización meticulosa, una
+						comunicación clara y la entrega de resultados de alta calidad.
+					</p>
+				</div>
+			</div>
+
+		</section>
+
+		<!-- ======= Project Section ======= -->
+		<section id="portfolio">
+			<div class="header">
+				<span></span>
+				<h1>Portafolio</h1>
+			</div>
+
+			<p>En esta sección, podrás explorar algunos de los proyectos en los que he estado activamente involucrado,
+				abarcando su desarrollo, mejora y optimización.
+			</p>
+
+			<div class="card mb-3">
+				<div class="row g-0 card-project">
+					<div class="col-md-7">
+						<img src="./images/proyecto-js.png" class="img-fluid rounded-start" alt="...">
+					</div>
+					<div class="col-md-5">
+						<div class="card-body">
+							<h3 class="card-title">Inventario Campuslands</h3>
+							<p class="card-text">Este sistema de gestión de inventario facilita el control exhaustivo de
+								artículos, categorías, marcas y proveedores, así como su asignación a usuarios
+								específicos.
+								Permite una administración eficiente mediante operaciones clave como registro, búsqueda,
+								edición
+								y eliminación de datos, asegurando un manejo ágil y preciso del inventario.
+
+							</p>
+							<p class="card-text"><small class="text-body-secondary">Tecnologías empleadas: HTML, CSS,
+									JavaScript y Bootstrap 5.</small></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card mb-3">
+				<div class="row g-0 card-project">
+					<div class="col-md-2">
+						<img src="./images/login.png" class="img-fluid rounded-start" alt="...">
+					</div>
+					<div class="col-md-5">
+						<img src="./images/garden.png" class="img-fluid rounded-start" alt="...">
+					</div>
+					<div class="col-md-5">
+						<div class="card-body">
+							<h3 class="card-title">Inventario Garden</h3>
+							<p class="card-text">Sistema integral para la gestión de un almacén de jardinería, que
+								incluye operaciones CRUD completas y un robusto proceso de autenticación de usuarios.
+								Este sistema permite una administración eficiente de inventarios, clientes y
+								transacciones, mejorando la operatividad y la seguridad de la información.
+
+							</p>
+							<p class="card-text"><small class="text-body-secondary">Tecnologías empleadas: HTML, CSS,
+									JavaScript, Bootstrap 5, SpringBoot - JWT y MySQL.</small></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer id="footer">
+		<div class="container text-end">
+			<div class="copyright">
+				&copy; Copyright <strong><span>Portafolio Fabian Augusto Rodriguez Rojas</span></strong>
+			</div>
+			<div class="credits">
+				Diseñado por
+				<a href="https://github.com/Fauroro"><i class="bi bi-github"></i> Fabian Rodriguez </a>
+			</div>
+		</div>
+	</footer>
+
+</body>
+
+</html>
